@@ -1,0 +1,3 @@
+#variable for bash
+node=..\\..\\nodeJS\\node
+npm=..\\..\\nodeJS\\npm
