@@ -50,6 +50,11 @@
     <main>
       <h1>Recommended restaurants</h1>
       <p>Find your next favorite restaurants with help of our other users!</p>
+      <%=if(numberRestaurant==0){%>
+      <p>No Restaurant Found</p>
+      <%=else if{%>
+      <p><%=numberRestaurant%> Restaurants listed</p>
+
       <ul id="restaurants-list">
         <li class="restaurant-item">
           <article>
@@ -67,6 +72,7 @@
           </article>
         </li>
       </ul>
+      <%=}%>
     </main>
   </body>
 </html>
