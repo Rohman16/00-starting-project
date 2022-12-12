@@ -10,41 +10,27 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles/shared.css" />
-    <link rel="stylesheet" href="styles/restaurants.css" />
+    <link rel="stylesheet" href="/styles/shared.css" />
+    <link rel="stylesheet" href="/styles/restaurants.css" />
     <script src="scripts/responsive.js" defer></script>
   </head>
 
   <body>
     <%-include("partial/header")%> <%-include("partial/aside")%>
     <main>
-      <h1>Recommended restaurants</h1>
-      <p>Find your next favorite restaurants with help of our other users!</p>
-      <%if(numberRestaurant==0){%>
-      <p>No Restaurant Found</p>
-      <%}else {%>
-      <p><%=numberRestaurant%> Restaurants listed</p>
-      <form action="/restaurants" method="GET">
-        <input type="hidden" name="sort" value="asc" />
-        <button class="btn">sort item</button>
-      </form>
-      <% for(rest of allRestaurant){%>
+      <h1>Welcome to <%= rest.name %></h1>
       <ul id="restaurants-list">
         <li class="restaurant-item">
           <article>
-            <h2><%=rest.name%></h2>
             <div class="restaurant-meta">
+              <p>Id Num : <%= rest.id %></p>
               <p><%=rest.cuisine%></p>
               <p><%=rest.address%></p>
             </div>
             <p><%=rest.description%></p>
-            <div class="restaurant-actions">
-              <a href="/restaurants/<%=rest.id%>">View Page</a>
-            </div>
           </article>
         </li>
       </ul>
-      <%}%> <%}%>
     </main>
   </body>
 </html>
