@@ -1,1 +1,97 @@
-[{"name":"Restaurant Daniza","address":"jl. Cianjur-Sukabumi","cuisine":"Ikan Bakar","website":"https://rumahdaniz.com","description":"ok bgt","id":"R01"},{"name":"Rumah Makn 3 saudara","address":"jl. Pangrango","cuisine":"Sundanese Cuisine","website":"https://rumah3sdr.com","description":"okey","id":"R02"},{"name":"Bsteak","address":"jl.Sumarecon","cuisine":"Western","website":"https://b-steak.com","description":"delicious","id":"R03"},{"name":"Sate Khas Senayan","address":"l. Prof. DR. Satrio No.18, RT.7/RW.4","cuisine":"Sate Special","website":"https://satesenayan.com","description":"Restauran khusus sate ayam","id":"682e2aa5-b92b-44f7-940b-a3f1caf53f58"},{"name":"SHABU JIN","address":"Jl. Prof. DR. Satrio No.Kav. 18, RT.14/RW.4","cuisine":"Japanese Food","website":"https://shabu-jin.com","description":"Enak","id":"15aee0f2-edee-405a-802d-a5ec1f33d2c6"},{"name":"SHABU JIN","address":"Jl. Prof. DR. Satrio No.Kav. 18, RT.14/RW.4","cuisine":"Japanese Food","website":"https://shabu-jin.com","description":"Enak","id":"e1d7df80-85b0-4031-8930-9c2b3137d81f"},{"name":"SHABU JIN","address":"Jl. Prof. DR. Satrio No.Kav. 18, RT.14/RW.4","cuisine":"Japanese Food","website":"https://shabu-jin.com","description":"Enak","id":"9f381e9a-d595-4151-adee-eb761bd62125"},{"name":"SHABU JIN","address":"Jl. Prof. DR. Satrio No.Kav. 18, RT.14/RW.4","cuisine":"Japanese Food","website":"https://shabu-jin.com","description":"Enak","id":"470c6993-cf3d-4f68-a3ff-a2994839c6e3"},{"name":"Casa Alba Ristorante","address":"5, Jl. Surabaya No.38, Kec. Menteng, Jakarta Pusat, 10310","cuisine":"The epitome of Italian cuisine,The epitome of Italian cuisine","website":"https://Casa-Alba.com","description":"The spinach ravioli is light and fresh","id":"0a6bbd4c-a041-491e-bcd9-abeeccc09b24"},{"name":"Casa Alba Ristorante","address":"5, Jl. Surabaya No.38, Kec. Menteng, Jakarta Pusat, 10310","cuisine":"The epitome of Italian cuisine,The epitome of Italian cuisine","website":"https://Casa-Alba.com","description":"The spinach ravioli is light and fresh","id":"d38b25ee-1d3e-4cec-8712-2d2836d5370a"},{"name":"Casa Alba Ristorante","address":"Jl Jend. Sudirman kav52-53 RT.8/RW.3, Jaksel","cuisine":"Ikan Bakar","website":"https://Casa-Alba.com","description":"okey bgt","id":"d0366c56-c098-44ab-9dda-194a4072d4e2"},{"name":"Casa Alba Ristorante","address":"Jl Jend. Sudirman kav52-53 RT.8/RW.3, Jaksel","cuisine":"Ikan Bakar","website":"https://Casa-Alba.com","description":"okey bgt","id":"b36f4e51-399d-4f98-8a35-0ceeea2a6b54"}]
+[{
+        "name": "Restaurant Daniza",
+        "address": "jl. Cianjur-Sukabumi",
+        "cuisine": "Ikan Bakar",
+        "website": "https://rumahdaniz.com",
+        "description": "ok bgt",
+        "id": "R01"
+    },
+    {
+        "name": "Rumah Makn 3 saudara",
+        "address": "jl. Pangrango",
+        "cuisine": "Sundanese Cuisine",
+        "website": "https://rumah3sdr.com",
+        "description": "okey",
+        "id": "R02"
+    },
+    {
+        "name": "Bsteak",
+        "address": "jl.Sumarecon",
+        "cuisine": "Western",
+        "website": "https://b-steak.com",
+        "description": "delicious",
+        "id": "R03"
+    },
+    {
+        "name": "Sate Khas Senayan",
+        "address": "l. Prof. DR. Satrio No.18, RT.7/RW.4",
+        "cuisine": "Sate Special",
+        "website": "https://satesenayan.com",
+        "description": "Restauran khusus sate ayam",
+        "id": "682e2aa5-b92b-44f7-940b-a3f1caf53f58"
+    },
+    {
+        "name": "SHABU JIN",
+        "address": "Jl. Prof. DR. Satrio No.Kav. 18, RT.14/RW.4",
+        "cuisine": "Japanese Food",
+        "website": "https://shabu-jin.com",
+        "description": "Enak",
+        "id": "15aee0f2-edee-405a-802d-a5ec1f33d2c6"
+    },
+    {
+        "name": "SHABU JIN",
+        "address": "Jl. Prof. DR. Satrio No.Kav. 18, RT.14/RW.4",
+        "cuisine": "Japanese Food",
+        "website": "https://shabu-jin.com",
+        "description": "Enak",
+        "id": "e1d7df80-85b0-4031-8930-9c2b3137d81f"
+    },
+    {
+        "name": "SHABU JIN",
+        "address": "Jl. Prof. DR. Satrio No.Kav. 18, RT.14/RW.4",
+        "cuisine": "Japanese Food",
+        "website": "https://shabu-jin.com",
+        "description": "Enak",
+        "id": "9f381e9a-d595-4151-adee-eb761bd62125"
+    },
+    {
+        "name": "SHABU JIN",
+        "address": "Jl. Prof. DR. Satrio No.Kav. 18, RT.14/RW.4",
+        "cuisine": "Japanese Food",
+        "website": "https://shabu-jin.com",
+        "description": "Enak",
+        "id": "470c6993-cf3d-4f68-a3ff-a2994839c6e3"
+    },
+    {
+        "name": "Casa Alba Ristorante",
+        "address": "5, Jl. Surabaya No.38, Kec. Menteng, Jakarta Pusat, 10310",
+        "cuisine": "The epitome of Italian cuisine,The epitome of Italian cuisine",
+        "website": "https://Casa-Alba.com",
+        "description": "The spinach ravioli is light and fresh",
+        "id": "0a6bbd4c-a041-491e-bcd9-abeeccc09b24"
+    },
+    {
+        "name": "Casa Alba Ristorante",
+        "address": "5, Jl. Surabaya No.38, Kec. Menteng, Jakarta Pusat, 10310",
+        "cuisine": "The epitome of Italian cuisine,The epitome of Italian cuisine",
+        "website": "https://Casa-Alba.com",
+        "description": "The spinach ravioli is light and fresh",
+        "id": "d38b25ee-1d3e-4cec-8712-2d2836d5370a"
+    },
+    {
+        "name": "Casa Alba Ristorante",
+        "address": "Jl Jend. Sudirman kav52-53 RT.8/RW.3, Jaksel",
+        "cuisine": "Ikan Bakar",
+        "website": "https://Casa-Alba.com",
+        "description": "okey bgt",
+        "id": "d0366c56-c098-44ab-9dda-194a4072d4e2"
+    },
+    {
+        "name": "Casa Alba Ristorante",
+        "address": "Jl Jend. Sudirman kav52-53 RT.8/RW.3, Jaksel",
+        "cuisine": "Ikan Bakar",
+        "website": "https://Casa-Alba.com",
+        "description": "okey bgt",
+        "id": "b36f4e51-399d-4f98-8a35-0ceeea2a6b54"
+    }
+]
