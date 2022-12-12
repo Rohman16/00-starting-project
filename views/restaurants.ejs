@@ -1,60 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eatwell - Make The World A Tastier Place</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/shared.css" />
     <link rel="stylesheet" href="styles/restaurants.css" />
     <script src="scripts/responsive.js" defer></script>
-</head>
+  </head>
 
-<body>
-    <%-include("partial/header")%>
-        <%-include("partial/aside")%>
-            <main>
-                <h1>Recommended restaurants</h1>
-                <p>Find your next favorite restaurants with help of our other users!</p>
-                <%if(numberRestaurant==0){%>
-                    <p>No Restaurant Found</p>
-                    <%}else {%>
-                        <p>
-                            <%=numberRestaurant%> Restaurants listed</p>
-                        <form action="/restaurants" method="GET">
-                            <input type="hidden" name="sort" value="<%= myStat %> " />
-                            <button class="btn">sort item</button>
-                        </form>
-                        <% for(rest of allRestaurant){%>
-                            <ul id="restaurants-list">
-                                <li class="restaurant-item">
-                                    <article>
-                                        <h2>
-                                            <%=rest.name%>
-                                        </h2>
-                                        <div class="restaurant-meta">
-                                            <p>
-                                                <%=rest.cuisine%>
-                                            </p>
-                                            <p>
-                                                <%=rest.address%>
-                                            </p>
-                                        </div>
-                                        <p>
-                                            <%=rest.description%>
-                                        </p>
-                                        <div class="restaurant-actions">
-                                            <a href="/restaurants/<%=rest.id%>">View Page</a>
-                                        </div>
-                                    </article>
-                                </li>
-                            </ul>
-                            <%}%>
-                                <%}%>
-            </main>
-</body>
-
+  <body>
+    <%-include("partial/header")%> <%-include("partial/aside")%>
+    <main>
+      <h1>Recommended restaurants</h1>
+      <p>Find your next favorite restaurants with help of our other users!</p>
+      <%if(numberRestaurant==0){%>
+      <p>No Restaurant Found</p>
+      <%}else {%>
+      <p><%=numberRestaurant%> Restaurants listed</p>
+      <form action="/restaurants" method="GET">
+        <input type="hidden" name="sort" value="<%= myStat %> " />
+        <button class="btn">sort item</button>
+      </form>
+      <% for(rest of allRestaurant){%>
+      <ul id="restaurants-list">
+        <li class="restaurant-item">
+          <article>
+            <h2><%=rest.name%></h2>
+            <div class="restaurant-meta">
+              <p><%=rest.cuisine%></p>
+              <p><%=rest.address%></p>
+            </div>
+            <p><%=rest.description%></p>
+            <div class="restaurant-actions">
+              <a href="/restaurants/<%=rest.id%>">View Page</a>
+            </div>
+          </article>
+        </li>
+      </ul>
+      <%}%> <%}%>
+    </main>
+  </body>
 </html>
